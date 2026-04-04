@@ -4,6 +4,7 @@ const Countries = () => {
     return (
         <div>
             <h1>In the countries</h1>
+            <p>Hello, guys</p>
         </div>
     );
 };
