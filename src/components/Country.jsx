@@ -39,7 +39,7 @@ const Country = ({country, handleVisitedCountries, handleVisitedFlags}) => {
                 {visited ? 'Visited' : 'Not Visited'}
             </button>
 
-            <button onClick={() => {handleVisitedFlags(flags?.flags?.png)}}>Add Visited Flag</button>
+            <button onClick={() => {handleVisitedFlags(flags?.flags?.png)}}>Add Visited Flags</button>
         </div>
     );
 };
